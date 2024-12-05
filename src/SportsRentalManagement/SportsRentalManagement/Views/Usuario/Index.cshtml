@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SportsRentalManagement.Models.Usuario>
+
+@{
+    ViewData["Title"] = "Usuarios";
+}
+
+<h1>Usuarios</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nuevo Usuario</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Nombre</th>
+            <th>Correo</th>
+            <th>Teléfono</th>
+            <th>Dirección</th>
+            <th>Fecha de Registro</th>
+            <th>Documento de Identidad</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var usuario in Model)
+        {
+            <tr>
+                <td>@usuario.Id</td>
+                <td>@usuario.Nombre</td>
+                <td>@usuario.Correo</td>
+                <td>@usuario.Telefono</td>
+                <td>@usuario.Direccion</td>
+                <td>@usuario.FechaRegistro.ToString("dd/MM/yyyy")</td>
+                <td>@usuario.DocumentoIdentidad</td>
+                <td>
+                    <!-- Detalles -->
+                    <a href="@Url.Action("Details", "Usuario", new { id = usuario.Id })" class="btn btn-info">Detalles</a>
+
+                    <!-- Editar -->
+                    <a href="@Url.Action("Edit", "Usuario", new { id = usuario.Id })" class="btn btn-warning">Editar</a>
+
+                    <!-- Eliminar -->
+                    <a href="@Url.Action("Delete", "Usuario", new { id = usuario.Id })" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

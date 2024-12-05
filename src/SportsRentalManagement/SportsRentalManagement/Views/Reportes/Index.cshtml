@@ -1,0 +1,88 @@
+﻿@*
+    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
+*@
+@{
+}
+@model IEnumerable<SportsRentalManagement.Models.Reserva>
+@{
+    ViewData["Title"] = "Reportes de Utilización e Ingresos";
+    var equipoIdSeleccionado = ViewData["EquipoId"]?.ToString();
+    var fechaInicioSeleccionada = ViewData["FechaInicio"]?.ToString();
+    var fechaFinSeleccionada = ViewData["FechaFin"]?.ToString();
+}
+
+<h1>Reportes de Utilización e Ingresos</h1>
+
+<form method="get" action="/Reportes/Index">
+    <div class="form-row">
+        <div class="form-group col-md-4">
+            <label for="equipoId">Equipo</label>
+            <select name="equipoId" class="form-control">
+                <option value="">-- Todos --</option>
+                @foreach (var equipo in ViewBag.Equipos)
+                {
+                    <option value="@equipo.Id" selected="@(equipo.Id.ToString() == equipoIdSeleccionado)">
+                        @equipo.Nombre
+                    </option>
+                }
+            </select>
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="fechaInicio">Fecha Inicio</label>
+            <input type="date" name="fechaInicio" class="form-control" value="@fechaInicioSeleccionada" />
+        </div>
+
+        <div class="form-group col-md-4">
+            <label for="fechaFin">Fecha Fin</label>
+            <input type="date" name="fechaFin" class="form-control" value="@fechaFinSeleccionada" />
+        </div>
+    </div>
+
+    <button type="submit" class="btn btn-primary">Filtrar</button>
+    <div class="mt-4">
+        <a asp-action="DescargarExcel" asp-route-equipoId="@ViewData["EquipoId"]" asp-route-fechaInicio="@ViewData["FechaInicio"]" asp-route-fechaFin="@ViewData["FechaFin"]" class="btn btn-success">Descargar Excel</a>
+        <a asp-action="DescargarPDF" asp-route-equipoId="@ViewData["EquipoId"]" asp-route-fechaInicio="@ViewData["FechaInicio"]" asp-route-fechaFin="@ViewData["FechaFin"]" class="btn btn-danger">Descargar PDF</a>
+    </div>
+</form>
+
+<hr />
+
+<table class="table table-striped">
+    <thead>
+        <tr>
+            <th>Equipo</th>
+            <th>Usuario</th>
+            <th>Fecha Inicio</th>
+            <th>Fecha Fin</th>
+            <th>Duración (días)</th>
+            <th>Ingreso Generado</th>
+        </tr>
+    </thead>
+    <tbody>
+        @if (Model != null && Model.Any())
+        {
+            foreach (var reserva in Model)
+            {
+                var duracion = (reserva.FechaFin - reserva.FechaInicio).Days;
+                var ingreso = duracion * reserva.Equipo.PrecioPorDia;
+
+                <tr>
+                    <td>@reserva.Equipo.Nombre</td>
+                    <td>@(reserva.Usuario?.Nombre ?? "Usuario no disponible")</td>
+                    <td>@reserva.FechaInicio.ToShortDateString()</td>
+                    <td>@reserva.FechaFin.ToShortDateString()</td>
+                    <td>@duracion</td>
+                    <td>@ingreso.ToString("C")</td>
+                </tr>
+            }
+        }
+        else
+        {
+            <tr>
+                <td colspan="6" class="text-center">No se encontraron resultados con los filtros aplicados.</td>
+            </tr>
+        }
+    </tbody>
+</table>
+

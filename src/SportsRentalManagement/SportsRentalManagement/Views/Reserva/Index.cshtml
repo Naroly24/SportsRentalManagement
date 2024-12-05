@@ -1,0 +1,50 @@
+﻿@model IEnumerable<SportsRentalManagement.Models.Reserva>
+
+@{
+    ViewData["Title"] = "Reservas";
+}
+
+<h1>Reservas</h1>
+
+<p>
+    <a href="@Url.Action("Create")" class="btn btn-primary">Crear Nueva Reserva</a>
+</p>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Usuario</th>
+            <th>Equipo</th>
+            <th>Fecha de Inicio</th>
+            <th>Fecha de Fin</th>
+            <th>Estado de la Reserva</th>
+            <th>Total de la Reserva</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var reserva in Model)
+        {
+            <tr>
+                <td>@reserva.Id</td>
+                <td>@reserva.Usuario.Nombre</td>
+                <td>@reserva.Equipo.Nombre</td>
+                <td>@reserva.FechaInicio.ToShortDateString()</td>
+                <td>@reserva.FechaFin.ToShortDateString()</td>
+                <td>@reserva.EstadoReserva</td>
+                <td>@reserva.TotalReserva.ToString("C")</td>
+                <td>
+                    <!-- Detalles -->
+                    <a href="@Url.Action("Details", "Reserva", new { id = reserva.Id })" class="btn btn-info">Detalles</a>
+
+                    <!-- Editar -->
+                    <a href="@Url.Action("Edit", "Reserva", new { id = reserva.Id })" class="btn btn-warning">Editar</a>
+
+                    <!-- Eliminar -->
+                    <a href="@Url.Action("Delete", "Reserva", new { id = reserva.Id })" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>

@@ -1,0 +1,18 @@
+﻿@model SportsRentalManagement.Models.Reserva
+
+@{
+    ViewData["Title"] = "Detalles de la Reserva";
+}
+
+<h1>Detalles de la Reserva</h1>
+
+<div>
+    <h3>Usuario: @Model.Usuario.Nombre</h3>
+    <h3>Equipo: @Model.Equipo.Nombre</h3>
+    <p><strong>Fecha de Inicio:</strong> @Model.FechaInicio.ToShortDateString()</p>
+    <p><strong>Fecha de Fin:</strong> @Model.FechaFin.ToShortDateString()</p>
+    <p><strong>Estado de la Reserva:</strong> @Model.EstadoReserva</p>
+    <p><strong>Total de la Reserva:</strong> @Model.TotalReserva.ToString("C")</p>
+
+    <a asp-action="Index" class="btn btn-warning">Volver a la lista</a>
+</div>

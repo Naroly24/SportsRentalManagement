@@ -1,0 +1,79 @@
+﻿@model SportsRentalManagement.Models.Reserva
+
+@{
+    ViewData["Title"] = "Editar Reserva";
+}
+
+<h1>Editar Reserva</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+
+    <div class="form-group">
+        <label asp-for="UsuarioId">Usuario</label>
+        <select class="form-control" asp-for="UsuarioId" required>
+            <option value="">Seleccione un Usuario</option>
+            @if (ViewBag.Usuarios != null)
+            {
+                foreach (var usuario in ViewBag.Usuarios as List<SelectListItem>)
+                {
+                    <option value="@usuario.Value" selected="@(usuario.Value == Model.UsuarioId.ToString())">
+                        @usuario.Text
+                    </option>
+                }
+            }
+            else
+            {
+                <option>No hay usuarios disponibles</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EquipoId">Equipo</label>
+        <select class="form-control" asp-for="EquipoId" required>
+            <option value="">Seleccione un Equipo</option>
+            @if (ViewBag.Equipos != null)
+            {
+                foreach (var equipo in ViewBag.Equipos as List<SelectListItem>)
+                {
+                    <option value="@equipo.Value" selected="@(equipo.Value == Model.EquipoId.ToString())">
+                        @equipo.Text
+                    </option>
+                }
+            }
+            else
+            {
+                <option>No hay equipos disponibles</option>
+            }
+        </select>
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaInicio">Fecha de Inicio</label>
+        <input type="date" class="form-control" asp-for="FechaInicio"
+               value="@Model.FechaInicio.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="FechaFin">Fecha de Fin</label>
+        <input type="date" class="form-control" asp-for="FechaFin"
+               value="@Model.FechaFin.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="EstadoReserva">Estado de la Reserva</label>
+        <input type="text" class="form-control" asp-for="EstadoReserva"
+               value="@Model.EstadoReserva" required />
+    </div>
+
+    <div class="form-group">
+        <label asp-for="TotalReserva">Total de la Reserva</label>
+        <input type="number" class="form-control" asp-for="TotalReserva"
+               value="@Model.TotalReserva" required step="0.01" />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+</form>
+
+<a asp-action="Index" class="btn btn-warning">Volver</a>

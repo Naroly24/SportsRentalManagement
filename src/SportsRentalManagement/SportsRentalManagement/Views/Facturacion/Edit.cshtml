@@ -1,0 +1,34 @@
+﻿@model SportsRentalManagement.Models.Facturacion
+
+@{
+    ViewData["Title"] = "Editar Facturación";
+}
+
+<h1>Editar Facturación</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" asp-for="Id" />
+    <div class="form-group">
+        <label for="ReservaId">Reserva ID</label>
+        <input type="number" class="form-control" id="ReservaId" name="ReservaId" asp-for="ReservaId" required />
+    </div>
+    <div class="form-group">
+        <label for="Total">Total</label>
+        <input type="number" step="0.01" class="form-control" id="Total" name="Total" asp-for="Total" required />
+    </div>
+    <div class="form-group">
+        <label for="FechaFactura">Fecha de Factura</label>
+        <input type="date" class="form-control" id="FechaFactura" name="FechaFactura" asp-for="FechaFactura" required />
+    </div>
+    <div class="form-group">
+        <label for="EstadoFactura">Estado</label>
+        <input type="text" class="form-control" id="EstadoFactura" name="EstadoFactura" asp-for="EstadoFactura" required />
+    </div>
+    <div class="form-group">
+        <label for="MetodoPago">Método de Pago</label>
+        <input type="text" class="form-control" id="MetodoPago" name="MetodoPago" asp-for="MetodoPago" required />
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>
