@@ -1,0 +1,45 @@
+﻿@model SportsRentalManagement.Models.Usuario
+
+@{
+    ViewData["Title"] = "Editar Usuario";
+}
+
+<h1>Editar Usuario</h1>
+
+<form asp-action="Edit" method="post">
+    <input type="hidden" name="Id" value="@Model.Id" />
+
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" value="@Model.Nombre" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Correo">Correo</label>
+        <input type="email" class="form-control" id="Correo" name="Correo" value="@Model.Correo" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Telefono">Teléfono</label>
+        <input type="text" class="form-control" id="Telefono" name="Telefono" value="@Model.Telefono" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Direccion">Dirección</label>
+        <input type="text" class="form-control" id="Direccion" name="Direccion" value="@Model.Direccion" required />
+    </div>
+
+    <div class="form-group">
+        <label for="FechaRegistro">Fecha de Registro</label>
+        <input type="date" class="form-control" id="FechaRegistro" name="FechaRegistro" value="@Model.FechaRegistro.ToString("yyyy-MM-dd")" required />
+    </div>
+
+    <div class="form-group">
+        <label for="DocumentoIdentidad">Documento de Identidad</label>
+        <input type="text" class="form-control" id="DocumentoIdentidad" name="DocumentoIdentidad" value="@Model.DocumentoIdentidad" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Guardar Cambios</button>
+    <a asp-controller="Usuario" asp-action="Index" class="btn btn-warning">Volver</a>
+
+</form>

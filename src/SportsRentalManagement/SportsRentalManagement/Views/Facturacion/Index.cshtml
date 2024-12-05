@@ -1,0 +1,42 @@
+﻿@model List<SportsRentalManagement.Models.Facturacion>
+
+@{
+    ViewData["Title"] = "Facturación";
+    Layout = "~/Views/Shared/_Layout.cshtml";
+}
+
+<h1>Facturación</h1>
+
+<table class="table">
+    <thead>
+        <tr>
+            <th>ID</th>
+            <th>Reserva ID</th>
+            <th>Total</th>
+            <th>Fecha de Factura</th>
+            <th>Estado</th>
+            <th>Método de Pago</th>
+            <th>Acciones</th>
+        </tr>
+    </thead>
+    <tbody>
+        @foreach (var item in Model)
+        {
+            <tr>
+                <td>@item.Id</td>
+                <td>@item.ReservaId</td>
+                <td>@item.Total</td>
+                <td>@item.FechaFactura.ToString("dd/MM/yyyy")</td>
+                <td>@item.EstadoFactura</td>
+                <td>@item.MetodoPago</td>
+                <td>
+                    <a asp-action="Details" asp-route-id="@item.Id" class="btn btn-info">Detalles</a>
+                    <a asp-action="Edit" asp-route-id="@item.Id" class="btn btn-warning">Editar</a>
+                    <a asp-action="Delete" asp-route-id="@item.Id" class="btn btn-danger">Eliminar</a>
+                </td>
+            </tr>
+        }
+    </tbody>
+</table>
+
+<a asp-action="Create" class="btn btn-primary">Nueva Facturación</a>

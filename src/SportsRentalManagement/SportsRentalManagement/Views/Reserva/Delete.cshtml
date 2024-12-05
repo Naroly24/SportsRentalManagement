@@ -1,0 +1,38 @@
+﻿@model SportsRentalManagement.Models.Reserva
+
+@{
+    ViewData["Title"] = "Eliminar Reserva";
+}
+
+<h1>Eliminar Reserva</h1>
+
+<h4>¿Está seguro de que desea eliminar esta reserva?</h4>
+<hr />
+
+<div>
+    <dl class="row">
+        <dt class="col-sm-2">Usuario</dt>
+        <dd class="col-sm-10">@Model.Usuario.Nombre</dd>
+
+        <dt class="col-sm-2">Equipo</dt>
+        <dd class="col-sm-10">@Model.Equipo.Nombre</dd>
+
+        <dt class="col-sm-2">Fecha de Inicio</dt>
+        <dd class="col-sm-10">@Model.FechaInicio.ToShortDateString()</dd>
+
+        <dt class="col-sm-2">Fecha de Fin</dt>
+        <dd class="col-sm-10">@Model.FechaFin.ToShortDateString()</dd>
+
+        <dt class="col-sm-2">Estado de la Reserva</dt>
+        <dd class="col-sm-10">@Model.EstadoReserva</dd>
+
+        <dt class="col-sm-2">Total de la Reserva</dt>
+        <dd class="col-sm-10">@Model.TotalReserva.ToString("C")</dd>
+    </dl>
+
+    <form asp-action="Delete" method="post">
+        <input type="hidden" name="Id" value="@Model.Id" />
+        <button type="submit" class="btn btn-danger">Eliminar</button>
+        <a href="@Url.Action("Index")" class="btn btn-secondary">Cancelar</a>
+    </form>
+</div>

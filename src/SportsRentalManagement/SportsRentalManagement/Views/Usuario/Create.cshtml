@@ -1,0 +1,43 @@
+﻿@model SportsRentalManagement.Models.Usuario
+
+@{
+    ViewData["Title"] = "Crear Usuario";
+}
+
+<h1>Crear Nuevo Usuario</h1>
+
+<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="Nombre">Nombre</label>
+        <input type="text" class="form-control" id="Nombre" name="Nombre" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Correo">Correo</label>
+        <input type="email" class="form-control" id="Correo" name="Correo" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Telefono">Teléfono</label>
+        <input type="text" class="form-control" id="Telefono" name="Telefono" required />
+    </div>
+
+    <div class="form-group">
+        <label for="Direccion">Dirección</label>
+        <input type="text" class="form-control" id="Direccion" name="Direccion" required />
+    </div>
+
+    <div class="form-group">
+        <label for="FechaRegistro">Fecha de Registro</label>
+        <input type="date" class="form-control" id="FechaRegistro" name="FechaRegistro" required />
+    </div>
+
+    <div class="form-group">
+        <label for="DocumentoIdentidad">Documento de Identidad</label>
+        <input type="text" class="form-control" id="DocumentoIdentidad" name="DocumentoIdentidad" required />
+    </div>
+
+    <button type="submit" class="btn btn-primary">Crear</button>
+    <a asp-controller="Usuario" asp-action="Index" class="btn btn-warning">Volver</a>
+
+</form>

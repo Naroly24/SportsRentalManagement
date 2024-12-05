@@ -1,0 +1,32 @@
+﻿<form asp-action="Create" method="post">
+    <div class="form-group">
+        <label for="ReservaId">Reserva ID</label>
+        <input type="number" class="form-control" id="ReservaId" name="ReservaId" required />
+    </div>
+    <div class="form-group">
+        <label for="Total">Total</label>
+        <input type="number" step="0.01" class="form-control" id="Total" name="Total" required />
+    </div>
+    <div class="form-group">
+        <label for="FechaFactura">Fecha de Factura</label>
+        <input type="date" class="form-control" id="FechaFactura" name="FechaFactura" required />
+    </div>
+    <div class="form-group">
+        <label for="EstadoFactura">Estado</label>
+        <input type="text" class="form-control" id="EstadoFactura" name="EstadoFactura" required />
+    </div>
+    <div class="form-group">
+        <label for="MetodoPago">Método de Pago</label>
+        <select class="form-control" id="MetodoPago" name="MetodoPago" required>
+            <option value="">Seleccione un método de pago</option> 
+            <option value="TarjetaCredito">Tarjeta de Crédito</option>
+            <option value="TarjetaDebito">Tarjeta de Débito</option>
+            <option value="TransferenciaBancaria">Transferencia Bancaria</option>
+            <option value="Efectivo">Efectivo</option>
+            <option value="PayPal">PayPal</option>
+        </select>
+    </div>
+    <button type="submit" class="btn btn-primary">Guardar</button>
+</form>
+
+<a asp-action="Index" class="btn btn-secondary">Volver</a>

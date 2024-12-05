@@ -1,0 +1,48 @@
+﻿@model SportsRentalManagement.Models.Equipo
+
+<div class="row">
+    <div class="col-sm-8 offset-sm-2">
+        <h2>Nuevo Equipo</h2>
+        <form asp-controller="Equipo" asp-action="Nuevo" method="post">
+            <div class="mb-3">
+                <label for="Nombre">Nombre</label>
+                <input class="form-control" asp-for="Nombre" type="text" />
+            </div>
+            <div class="mb-3">
+                <label for="Descripcion">Descripción</label>
+                <textarea class="form-control" asp-for="Descripcion"></textarea>
+            </div>
+            <div class="mb-3">
+                <label for="CantidadDisponible">Cantidad Disponible</label>
+                <input class="form-control" asp-for="CantidadDisponible" type="number" />
+            </div>
+            <div class="mb-3">
+                <label for="PrecioPorDia">Precio por Día</label>
+                <input class="form-control" asp-for="PrecioPorDia" type="decimal" />
+            </div>
+            <div class="mb-3">
+                <label for="TipoEquipo">Tipo de Equipo</label>
+                <input class="form-control" asp-for="TipoEquipo" type="text" />
+            </div>
+            <div class="mb-3">
+                <label for="Marca">Marca</label>
+                <input class="form-control" asp-for="Marca" type="text" />
+            </div>
+            <div class="mb-3">
+                <label for="FechaIngreso">Fecha de Ingreso</label>
+                <input class="form-control" asp-for="FechaIngreso" type="date" />
+            </div>
+            <div class="mb-3">
+                <label for="Estado">Estado</label>
+                <select class="form-control" asp-for="Estado">
+                    <option value="true">Nuevo</option>
+                    <option value="false">Usado</option>
+                    <option value="false">En Reparación</option>
+                    <option value="false">Dañado</option>
+                </select>
+            </div>
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-controller="Equipo" asp-action="Lista" class="btn btn-warning">Volver</a>
+        </form>
+    </div>
+</div>
