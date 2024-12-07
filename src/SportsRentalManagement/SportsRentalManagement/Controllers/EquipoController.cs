@@ -34,9 +34,9 @@ namespace SportsRentalManagement.Controllers
             {
                 await _appDbContext.Equipos.AddAsync(equipo);
                 await _appDbContext.SaveChangesAsync();
-                return RedirectToAction(nameof(Lista));  // Redirige a la lista de equipos después de guardar
+                return RedirectToAction(nameof(Lista));
             }
-            return View(equipo); 
+            return View(equipo);
         }
 
         [HttpGet]
@@ -53,19 +53,58 @@ namespace SportsRentalManagement.Controllers
             {
                 _appDbContext.Equipos.Update(equipo);
                 await _appDbContext.SaveChangesAsync();
-                return RedirectToAction(nameof(Lista)); 
+                return RedirectToAction(nameof(Lista));
             }
-            return View(equipo); 
+            return View(equipo);
+        }
+
+        [HttpGet]
+        public async Task<IActionResult> Detalles(int Id)
+        {
+            Equipo equipo = await _appDbContext.Equipos.FirstAsync(e => e.Id == Id);
+            return View(equipo);
         }
 
         [HttpGet]
         public async Task<IActionResult> Eliminar(int Id)
         {
             Equipo equipo = await _appDbContext.Equipos.FirstAsync(e => e.Id == Id);
-            _appDbContext.Equipos.Remove(equipo);
-            await _appDbContext.SaveChangesAsync();
-            return RedirectToAction(nameof(Lista));  
+            return View(equipo);
         }
 
+        [HttpPost]
+        public async Task<IActionResult> EliminarConfirmado(int Id)
+        {
+            Equipo equipo = await _appDbContext.Equipos.FirstAsync(e => e.Id == Id);
+            _appDbContext.Equipos.Remove(equipo);
+            await _appDbContext.SaveChangesAsync();
+            return RedirectToAction(nameof(Lista));
+        }
+        [HttpGet]
+        public async Task<IActionResult> Actualizar(int Id)
+        {
+            Equipo equipo = await _appDbContext.Equipos.FirstAsync(e => e.Id == Id);
+            return View(equipo);
+        }
+
+        [HttpPost]
+        public async Task<IActionResult> Actualizar(Equipo equipo)
+        {
+            if (ModelState.IsValid)
+            {
+                try
+                {
+                    _appDbContext.Equipos.Update(equipo);
+                    await _appDbContext.SaveChangesAsync();
+                    return RedirectToAction(nameof(Lista));
+                }
+                catch (DbUpdateException)
+                {
+                    ModelState.AddModelError("", "No se pudo actualizar el equipo. Intente nuevamente.");
+                    return View(equipo);
+                }
+            }
+            return View(equipo);
+        }
     }
 }

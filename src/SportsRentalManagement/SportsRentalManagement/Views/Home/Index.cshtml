@@ -1,12 +1,48 @@
-﻿@*
-    For more information on enabling MVC for empty projects, visit https://go.microsoft.com/fwlink/?LinkID=397860
-*@
-
-@{
-    ViewData["Title"] = "Bienvenido";
+﻿@{
+    Layout = "_Layout";
 }
 
-<div class="text-center mt-5">
-    <h1 class="display-4">¡Bienvenido a SportsRentalManagement!</h1>
-    <p class="lead">Gestione usuarios, reservas, pagos, facturación y equipos desde un solo lugar.</p>
+<div class="container mt-5 text-center">
+    <div class="welcome-section">
+        <h1 class="display-4 mb-4">Bienvenido a SportsRentalManagement</h1>
+
+        <div class="row justify-content-center">
+            <div class="col-md-8">
+                <p class="lead text-muted mb-5">
+                    Transforma la gestión de alquileres deportivos con nuestra solución integral.
+                    Simplifica procesos, maximiza eficiencia y mejora la experiencia de tus clientes.
+                </p>
+            </div>
+        </div>
+
+        <div class="mb-5">
+            <a asp-action="Dashboard" class="btn btn-primary btn-lg px-5">
+                Comenzar <i class="bi bi-arrow-right ms-2"></i>
+            </a>
+        </div>
+
+        <div class="row text-center justify-content-center">
+            <div class="col-md-4">
+                <div class="p-3">
+                    <i class="bi bi-clock-history display-4 text-primary mb-3"></i>
+                    <h5>Gestión Inteligente</h5>
+                    <p class="text-muted">Optimiza tus procesos con herramientas automatizadas</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3">
+                    <i class="bi bi-graph-up display-4 text-success mb-3"></i>
+                    <h5>Control Total</h5>
+                    <p class="text-muted">Supervisa cada aspecto de tu negocio en tiempo real</p>
+                </div>
+            </div>
+            <div class="col-md-4">
+                <div class="p-3">
+                    <i class="bi bi-shield-check display-4 text-info mb-3"></i>
+                    <h5>Seguridad Garantizada</h5>
+                    <p class="text-muted">Protege tus datos con sistemas de última generación</p>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>

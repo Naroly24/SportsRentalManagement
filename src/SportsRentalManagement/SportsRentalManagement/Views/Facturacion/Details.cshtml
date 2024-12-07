@@ -4,29 +4,44 @@
     ViewData["Title"] = "Detalles de Facturación";
 }
 
-<h1>Detalles de Facturación</h1>
+<div class="content-wrapper">
+    <div class="container mt-5">
+        <div class="row justify-content-center">
+            <div class="col-lg-8">
+                <div class="card shadow-lg border-0">
+                    <div class="card-header bg-primary text-white">
+                        <h2 class="h4 mb-0">
+                            <i class="bi bi-info-circle me-2"></i>Detalles de la Facturación
+                        </h2>
+                    </div>
+                    <div class="card-body">
+                        <dl class="row">
+                            <dt class="col-sm-4 text-primary">ID</dt>
+                            <dd class="col-sm-8">@Model.Id</dd>
 
-<div>
-    <h4>Facturación</h4>
-    <hr />
-    <dl class="row">
-        <dt class="col-sm-2">ID</dt>
-        <dd class="col-sm-10">@Model.Id</dd>
+                            <dt class="col-sm-4 text-primary">Reserva ID</dt>
+                            <dd class="col-sm-8">@Model.ReservaId</dd>
 
-        <dt class="col-sm-2">Reserva ID</dt>
-        <dd class="col-sm-10">@Model.ReservaId</dd>
+                            <dt class="col-sm-4 text-primary">Total</dt>
+                            <dd class="col-sm-8">@Model.Total.ToString("C")</dd>
 
-        <dt class="col-sm-2">Total</dt>
-        <dd class="col-sm-10">@Model.Total</dd>
+                            <dt class="col-sm-4 text-primary">Fecha de Factura</dt>
+                            <dd class="col-sm-8">@Model.FechaFactura.ToString("dd/MM/yyyy")</dd>
 
-        <dt class="col-sm-2">Fecha de Factura</dt>
-        <dd class="col-sm-10">@Model.FechaFactura.ToString("dd/MM/yyyy")</dd>
+                            <dt class="col-sm-4 text-primary">Estado</dt>
+                            <dd class="col-sm-8">@Model.EstadoFactura</dd>
 
-        <dt class="col-sm-2">Estado</dt>
-        <dd class="col-sm-10">@Model.EstadoFactura</dd>
-
-        <dt class="col-sm-2">Método de Pago</dt>
-        <dd class="col-sm-10">@Model.MetodoPago</dd>
-    </dl>
+                            <dt class="col-sm-4 text-primary">Método de Pago</dt>
+                            <dd class="col-sm-8">@Model.MetodoPago</dd>
+                        </dl>
+                    </div>
+                    <div class="card-footer text-end">
+                        <a href="@Url.Action("Index")" class="btn btn-secondary">
+                            <i class="bi bi-arrow-left-circle me-1"></i>Volver a la lista
+                        </a>
+                    </div>
+                </div>
+            </div>
+        </div>
+    </div>
 </div>
-<a asp-action="Index" class="btn btn-secondary">Volver</a>
