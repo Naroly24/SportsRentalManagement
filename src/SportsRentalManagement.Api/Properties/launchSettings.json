@@ -1,0 +1,24 @@
+﻿{
+  "$schema": "http://json.schemastore.org/launchsettings.json",
+  "iisSettings": {
+    "windowsAuthentication": false,
+    "anonymousAuthentication": true,
+    "iisExpress": {
+      "applicationUrl": "http://localhost:8791",
+      "sslPort": 44300
+    }
+  },
+  {
+    "profiles": {
+      "http": {
+        "applicationUrl": "http://localhost:5020" // Cambia el puerto aquí
+      }
+    }
+  },
+    "IIS Express": {
+      "commandName": "IISExpress",
+      "applicationUrl": "http://localhost:5020",
+      "sslPort": 44300
+    }
+  }
+}

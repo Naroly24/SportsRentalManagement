@@ -1,0 +1,49 @@
+﻿
+Microsoft Visual Studio Solution File, Format Version 12.00
+# Visual Studio Version 17
+VisualStudioVersion = 17.11.35327.3
+MinimumVisualStudioVersion = 10.0.40219.1
+Project("{9A19103F-16F7-4668-BE54-9A1E7A4F7556}") = "SportsRentalManagement", "SportsRentalManagement\SportsRentalManagement.csproj", "{E7093378-8974-49B6-B065-E7046D72982B}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsRentalManagement.Api", "..\SportsRentalManagement.Api\SportsRentalManagement.Api.csproj", "{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsRentalManagement.Application", "..\SportsRentalManagement.Application\SportsRentalManagement.Application.csproj", "{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsRentalManagement.Domain", "..\SportsRentalManagement.Domain\SportsRentalManagement.Domain.csproj", "{228C34AD-8E38-47E0-9CC1-B1D1888829E9}"
+EndProject
+Project("{FAE04EC0-301F-11D3-BF4B-00C04F79EFBC}") = "SportsRentalManagement.Infrastructure", "..\SportsRentalManagement.Infrastructure\SportsRentalManagement.Infrastructure.csproj", "{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}"
+EndProject
+Global
+	GlobalSection(SolutionConfigurationPlatforms) = preSolution
+		Debug|Any CPU = Debug|Any CPU
+		Release|Any CPU = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(ProjectConfigurationPlatforms) = postSolution
+		{E7093378-8974-49B6-B065-E7046D72982B}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{E7093378-8974-49B6-B065-E7046D72982B}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{E7093378-8974-49B6-B065-E7046D72982B}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{E7093378-8974-49B6-B065-E7046D72982B}.Release|Any CPU.Build.0 = Release|Any CPU
+		{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}.Release|Any CPU.Build.0 = Release|Any CPU
+		{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}.Release|Any CPU.Build.0 = Release|Any CPU
+		{228C34AD-8E38-47E0-9CC1-B1D1888829E9}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{228C34AD-8E38-47E0-9CC1-B1D1888829E9}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{228C34AD-8E38-47E0-9CC1-B1D1888829E9}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{228C34AD-8E38-47E0-9CC1-B1D1888829E9}.Release|Any CPU.Build.0 = Release|Any CPU
+		{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}.Debug|Any CPU.ActiveCfg = Debug|Any CPU
+		{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}.Debug|Any CPU.Build.0 = Debug|Any CPU
+		{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}.Release|Any CPU.ActiveCfg = Release|Any CPU
+		{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}.Release|Any CPU.Build.0 = Release|Any CPU
+	EndGlobalSection
+	GlobalSection(SolutionProperties) = preSolution
+		HideSolutionNode = FALSE
+	EndGlobalSection
+	GlobalSection(ExtensibilityGlobals) = postSolution
+		SolutionGuid = {78BA66B4-B550-4C13-9103-D9267200604B}
+	EndGlobalSection
+EndGlobal

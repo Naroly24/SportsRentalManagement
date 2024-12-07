@@ -1,0 +1,12 @@
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\bin\Debug\net8.0\SportsRentalManagement.Domain.deps.json
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\bin\Debug\net8.0\SportsRentalManagement.Domain.dll
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\bin\Debug\net8.0\SportsRentalManagement.Domain.pdb
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.AssemblyInfoInputs.cache
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.AssemblyInfo.cs
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.csproj.CoreCompileInputs.cache
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.sourcelink.json
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.dll
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\refint\SportsRentalManagement.Domain.dll
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\SportsRentalManagement.Domain.pdb
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Domain\obj\Debug\net8.0\ref\SportsRentalManagement.Domain.dll
