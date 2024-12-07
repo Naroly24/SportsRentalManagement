@@ -1,0 +1,65 @@
+﻿@model SportsRentalManagement.Models.Facturacion
+
+@{
+    ViewData["Title"] = "Crear Facturación";
+}
+
+<h1>Crear Nueva Facturación</h1>
+
+<form asp-action="Create" method="post">
+    <div asp-validation-summary="ModelOnly" class="text-danger"></div>
+
+    <div class="card shadow-lg border-0 mt-4">
+        <div class="card-header bg-primary text-white">
+            <h2 class="h4 mb-0">Detalles de la Facturación</h2>
+        </div>
+        <div class="card-body">
+            <div class="form-group">
+                <label asp-for="ReservaId" class="control-label">Reserva ID</label>
+                <input asp-for="ReservaId" class="form-control" type="number" required />
+                <span asp-validation-for="ReservaId" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="Total" class="control-label">Total</label>
+                <input asp-for="Total" class="form-control" type="number" step="0.01" required />
+                <span asp-validation-for="Total" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="FechaFactura" class="control-label">Fecha de Factura</label>
+                <input asp-for="FechaFactura" class="form-control" type="date" required />
+                <span asp-validation-for="FechaFactura" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="EstadoFactura" class="control-label">Estado</label>
+                <input asp-for="EstadoFactura" class="form-control" type="text" required />
+                <span asp-validation-for="EstadoFactura" class="text-danger"></span>
+            </div>
+
+            <div class="form-group">
+                <label asp-for="MetodoPago" class="control-label">Método de Pago</label>
+                <select asp-for="MetodoPago" class="form-control" required>
+                    <option value="">Seleccione un método de pago</option>
+                    <option value="TarjetaCredito">Tarjeta de Crédito</option>
+                    <option value="TarjetaDebito">Tarjeta de Débito</option>
+                    <option value="TransferenciaBancaria">Transferencia Bancaria</option>
+                    <option value="Efectivo">Efectivo</option>
+                    <option value="PayPal">PayPal</option>
+                </select>
+                <span asp-validation-for="MetodoPago" class="text-danger"></span>
+            </div>
+        </div>
+        <div class="card-footer text-end">
+            <button type="submit" class="btn btn-primary">Guardar</button>
+            <a asp-action="Index" class="btn btn-secondary">Volver</a>
+        </div>
+    </div>
+</form>
+
+@section Scripts {
+    @{
+        await Html.RenderPartialAsync("_ValidationScriptsPartial");
+    }
+}

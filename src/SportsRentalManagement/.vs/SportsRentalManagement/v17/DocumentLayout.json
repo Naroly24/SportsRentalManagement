@@ -1,0 +1,68 @@
+{
+  "Version": 1,
+  "WorkspaceRootPath": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\",
+  "Documents": [
+    {
+      "AbsoluteMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement\\sportsrentalmanagement\\views\\reserva\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
+      "RelativeMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|solutionrelative:sportsrentalmanagement\\views\\reserva\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement\\sportsrentalmanagement\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|solutionrelative:sportsrentalmanagement\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    }
+  ],
+  "DocumentGroupContainers": [
+    {
+      "Orientation": 0,
+      "VerticalTabListWidth": 256,
+      "DocumentGroups": [
+        {
+          "DockedWidth": 200,
+          "SelectedChildIndex": 0,
+          "Children": [
+            {
+              "$type": "Document",
+              "DocumentIndex": 0,
+              "Title": "Edit.cshtml",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
+              "RelativeDocumentMoniker": "SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
+              "RelativeToolTip": "SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAVAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
+              "WhenOpened": "2024-12-07T02:39:43.905Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "ReservaController.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Controllers\\ReservaController.cs",
+              "RelativeDocumentMoniker": "SportsRentalManagement\\Controllers\\ReservaController.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Controllers\\ReservaController.cs",
+              "RelativeToolTip": "SportsRentalManagement\\Controllers\\ReservaController.cs",
+              "ViewState": "AgIAABoAAAAAAAAAAAAIwMEAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:38:29.651Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:36:11.563Z"
+            }
+          ]
+        }
+      ]
+    }
+  ]
+}
