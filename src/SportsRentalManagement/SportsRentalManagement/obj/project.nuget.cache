@@ -1,6 +1,6 @@
 {
   "version": 2,
-  "dgSpecHash": "+YPIDwOCHzc=",
+  "dgSpecHash": "WBVYA1f+9vM=",
   "success": true,
   "projectFilePath": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\SportsRentalManagement.csproj",
   "expectedPackageFiles": [
@@ -15,6 +15,7 @@
     "C:\\Users\\Naroly\\.nuget\\packages\\epplus.interfaces\\7.5.0\\epplus.interfaces.7.5.0.nupkg.sha512",
     "C:\\Users\\Naroly\\.nuget\\packages\\epplus.system.drawing\\7.5.0\\epplus.system.drawing.7.5.0.nupkg.sha512",
     "C:\\Users\\Naroly\\.nuget\\packages\\excelnumberformat\\1.1.0\\excelnumberformat.1.1.0.nupkg.sha512",
+    "C:\\Users\\Naroly\\.nuget\\packages\\fluentvalidation\\11.11.0\\fluentvalidation.11.11.0.nupkg.sha512",
     "C:\\Users\\Naroly\\.nuget\\packages\\humanizer.core\\2.14.1\\humanizer.core.2.14.1.nupkg.sha512",
     "C:\\Users\\Naroly\\.nuget\\packages\\itextsharp\\5.5.13.4\\itextsharp.5.5.13.4.nupkg.sha512",
     "C:\\Users\\Naroly\\.nuget\\packages\\microsoft.bcl.asyncinterfaces\\7.0.0\\microsoft.bcl.asyncinterfaces.7.0.0.nupkg.sha512",

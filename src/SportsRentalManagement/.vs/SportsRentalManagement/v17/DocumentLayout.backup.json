@@ -3,6 +3,122 @@
   "WorkspaceRootPath": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\",
   "Documents": [
     {
+      "AbsoluteMoniker": "D:0:0:{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}|..\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.api\\sportsrentalmanagement.api.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}|..\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.api\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement\\sportsrentalmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}",
+      "RelativeMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|solutionrelative:sportsrentalmanagement\\properties\\launchsettings.json||{90A6B3A7-C1A3-4009-A288-E2FF89E96FA0}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\core\\servicebase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\core\\operationresult.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\core\\entitybase.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\data\\repositories\\reservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\contract\\ireservarepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\contract\\iequiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\models\\equipo.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\sportsrentalmanagement.application.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\data\\repositories\\equiporepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\services\\equiposervice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\sportsrentalmanagement.domain.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\services\\reservaservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\data\\repositories\\facturacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\contract\\ifacturacionrepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\services\\facturacionservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\data\\repositories\\usuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\contract\\iusuariorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\services\\usuarioservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\contract\\ipagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\data\\repositories\\pagorepository.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\services\\pagoservice.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement\\sportsrentalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}",
+      "RelativeMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|solutionrelative:sportsrentalmanagement\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{74AC4A68-BE2B-41FD-9A43-AAEB386F39B8}|..\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.api\\program.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\sportsrentalmanagement.infrastructure.csproj||{FA3CD31E-987B-443A-9B81-186104E8DAC1}|"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\validator\\usuariovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\validator\\reservavalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\validator\\pagovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\validator\\facturacionvalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\validator\\equipovalidator.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\dtos\\usuariodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\dtos\\reservadto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\dtos\\equipodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\dtos\\pagodto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
+      "AbsoluteMoniker": "D:0:0:{8D59C18F-4C2B-4A09-AA6D-8CCF839AAF86}|..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.application\\dtos\\facturaciondto.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+    },
+    {
       "AbsoluteMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement\\sportsrentalmanagement\\views\\reserva\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}",
       "RelativeMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|solutionrelative:sportsrentalmanagement\\views\\reserva\\edit.cshtml||{40D31677-CBC0-4297-A9EF-89D907823A98}"
     },
@@ -11,7 +127,7 @@
       "RelativeMoniker": "D:0:0:{E7093378-8974-49B6-B065-E7046D72982B}|SportsRentalManagement\\SportsRentalManagement.csproj|solutionrelative:sportsrentalmanagement\\controllers\\reservacontroller.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     },
     {
-      "AbsoluteMoniker": "D:0:0:{228C34AD-8E38-47E0-9CC1-B1D1888829E9}|..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.domain\\models\\reserva.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
+      "AbsoluteMoniker": "D:0:0:{D9DD5E13-FFB6-4B41-8488-4F0082693D4E}|..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj|c:\\users\\naroly\\onedrive\\documents\\itla\\sportsrentalmanagement-copia\\src\\sportsrentalmanagement.infrastructure\\migrations\\20241207184047_updatemodelproperties.cs||{A6C744A8-0E4A-4FC6-886A-064283054674}"
     }
   ],
   "DocumentGroupContainers": [
@@ -21,24 +137,502 @@
       "DocumentGroups": [
         {
           "DockedWidth": 200,
-          "SelectedChildIndex": 0,
+          "SelectedChildIndex": 6,
           "Children": [
             {
               "$type": "Document",
+              "DocumentIndex": 1,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Api\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Api\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Api\\Properties\\launchSettings.json",
+              "RelativeToolTip": "..\\SportsRentalManagement.Api\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAfAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T19:19:03.526Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 2,
+              "Title": "launchSettings.json",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Properties\\launchSettings.json",
+              "RelativeDocumentMoniker": "SportsRentalManagement\\Properties\\launchSettings.json",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Properties\\launchSettings.json",
+              "RelativeToolTip": "SportsRentalManagement\\Properties\\launchSettings.json",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAgAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.001642|",
+              "WhenOpened": "2024-12-07T19:10:19.063Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 3,
+              "Title": "ServiceBase.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Core\\ServiceBase.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Core\\ServiceBase.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Core\\ServiceBase.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Core\\ServiceBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:04:21.007Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 4,
+              "Title": "OperationResult.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Core\\OperationResult.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Core\\OperationResult.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Core\\OperationResult.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Core\\OperationResult.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T19:03:44.765Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 5,
+              "Title": "EntityBase.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Core\\EntityBase.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Core\\EntityBase.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Core\\EntityBase.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Core\\EntityBase.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:58:49.541Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 9,
+              "Title": "Equipo.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Equipo.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Models\\Equipo.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Equipo.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Models\\Equipo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:47:52.322Z"
+            },
+            {
+              "$type": "Document",
               "DocumentIndex": 0,
+              "Title": "SportsRentalManagement.Api.csproj",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj",
+              "RelativeToolTip": "..\\SportsRentalManagement.Api\\SportsRentalManagement.Api.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABQAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T17:26:42.169Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Bookmark",
+              "Name": "ST:0:0:{0ad07096-bba9-4900-a651-0598d26f6d24}"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 8,
+              "Title": "IEquipoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IEquipoRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Contract\\IEquipoRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IEquipoRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Contract\\IEquipoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:58:30.556Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 11,
+              "Title": "EquipoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\EquipoRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\EquipoRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\EquipoRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\EquipoRepository.cs",
+              "ViewState": "AgIAACUAAAAAAAAAAAAkwDcAAAAJAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:13:12.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 13,
+              "Title": "SportsRentalManagement.Domain.csproj",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T19:00:06.627Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 12,
+              "Title": "EquipoService.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\EquipoService.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Services\\EquipoService.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\EquipoService.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Services\\EquipoService.cs",
+              "ViewState": "AgIAABYAAAAAAAAAAAAowDMAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:30:27.748Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 7,
+              "Title": "IReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IReservaRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Contract\\IReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IReservaRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Contract\\IReservaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:59:15.366Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 6,
+              "Title": "ReservaRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\ReservaRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\ReservaRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\ReservaRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\ReservaRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA3AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:14:58.377Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 40,
+              "Title": "20241207184047_UpdateModelProperties.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Migrations\\20241207184047_UpdateModelProperties.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\Migrations\\20241207184047_UpdateModelProperties.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Migrations\\20241207184047_UpdateModelProperties.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\Migrations\\20241207184047_UpdateModelProperties.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T18:40:48.02Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 10,
+              "Title": "SportsRentalManagement.Application.csproj",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\SportsRentalManagement.Application.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T18:18:00.353Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 16,
+              "Title": "FacturacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\FacturacionRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\FacturacionRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\FacturacionRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\FacturacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAEgAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:13:48.971Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 17,
+              "Title": "IFacturacionRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IFacturacionRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Contract\\IFacturacionRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IFacturacionRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Contract\\IFacturacionRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABEAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:58:58.215Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 15,
+              "Title": "Reserva.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA4AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T02:36:11.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 14,
+              "Title": "ReservaService.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\ReservaService.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Services\\ReservaService.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\ReservaService.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Services\\ReservaService.cs",
+              "ViewState": "AgIAADMAAAAAAAAAAAA+wEcAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:43:43.563Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 18,
+              "Title": "FacturacionService.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\FacturacionService.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Services\\FacturacionService.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\FacturacionService.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Services\\FacturacionService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAD8AAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:30:29.514Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 19,
+              "Title": "UsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\UsuarioRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\UsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\UsuarioRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\UsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAC0AAAAyAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:15:39.569Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 20,
+              "Title": "IUsuarioRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IUsuarioRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Contract\\IUsuarioRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IUsuarioRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Contract\\IUsuarioRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA8AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:59:24.678Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 21,
+              "Title": "UsuarioService.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\UsuarioService.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Services\\UsuarioService.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\UsuarioService.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Services\\UsuarioService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADIAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:43:55.331Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 22,
+              "Title": "IPagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IPagoRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Contract\\IPagoRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Contract\\IPagoRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Contract\\IPagoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAoAAAA9AAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:59:07.64Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 23,
+              "Title": "PagoRepository.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\PagoRepository.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\PagoRepository.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\PagoRepository.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\Data\\Repositories\\PagoRepository.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAADoAAAABAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:37:28.558Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 24,
+              "Title": "PagoService.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\PagoService.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Services\\PagoService.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Services\\PagoService.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Services\\PagoService.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAjAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:42:40.732Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 25,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Program.cs",
+              "RelativeDocumentMoniker": "SportsRentalManagement\\Program.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Program.cs",
+              "RelativeToolTip": "SportsRentalManagement\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAcAAAAxAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:18:03.909Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 26,
+              "Title": "Program.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Api\\Program.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Api\\Program.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Api\\Program.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Api\\Program.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAUAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T06:18:35.851Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 27,
+              "Title": "SportsRentalManagement.Infrastructure.csproj",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj",
+              "RelativeToolTip": "..\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000758|",
+              "WhenOpened": "2024-12-07T06:12:18.332Z",
+              "EditorCaption": ""
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 28,
+              "Title": "UsuarioValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\UsuarioValidator.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Validator\\UsuarioValidator.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\UsuarioValidator.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Validator\\UsuarioValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACIAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:50:47.23Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 29,
+              "Title": "ReservaValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\ReservaValidator.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Validator\\ReservaValidator.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\ReservaValidator.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Validator\\ReservaValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:50:33.276Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 30,
+              "Title": "PagoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\PagoValidator.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Validator\\PagoValidator.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\PagoValidator.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Validator\\PagoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABgAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:50:19.999Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 31,
+              "Title": "FacturacionValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\FacturacionValidator.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Validator\\FacturacionValidator.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\FacturacionValidator.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Validator\\FacturacionValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAABkAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:50:04.494Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 32,
+              "Title": "EquipoValidator.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\EquipoValidator.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\Validator\\EquipoValidator.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\Validator\\EquipoValidator.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\Validator\\EquipoValidator.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAACcAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:45:46.787Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 33,
+              "Title": "UsuarioDto.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\UsuarioDto.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\DTOs\\UsuarioDto.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\UsuarioDto.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\DTOs\\UsuarioDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:43:26.952Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 34,
+              "Title": "ReservaDto.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\ReservaDto.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\DTOs\\ReservaDto.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\ReservaDto.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\DTOs\\ReservaDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAwAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:42:59.795Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 36,
+              "Title": "PagoDto.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\PagoDto.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\DTOs\\PagoDto.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\PagoDto.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\DTOs\\PagoDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:42:31.425Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 37,
+              "Title": "FacturacionDto.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\FacturacionDto.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\DTOs\\FacturacionDto.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\FacturacionDto.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\DTOs\\FacturacionDto.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAsAAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:42:05.007Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 35,
+              "Title": "EquipoDTo.cs",
+              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\EquipoDTo.cs",
+              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Application\\DTOs\\EquipoDTo.cs",
+              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Application\\DTOs\\EquipoDTo.cs",
+              "RelativeToolTip": "..\\SportsRentalManagement.Application\\DTOs\\EquipoDTo.cs",
+              "ViewState": "AgIAAAAAAAAAAAAAAAAAAA0AAAAAAAAAAAAAAA==",
+              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
+              "WhenOpened": "2024-12-07T05:41:14.196Z"
+            },
+            {
+              "$type": "Document",
+              "DocumentIndex": 38,
               "Title": "Edit.cshtml",
               "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
               "RelativeDocumentMoniker": "SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
               "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
               "RelativeToolTip": "SportsRentalManagement\\Views\\Reserva\\Edit.cshtml",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAADYAAAAVAAAAAAAAAA==",
+              "ViewState": "AgIAACEAAAAAAAAAAAAAADYAAAAVAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000759|",
-              "WhenOpened": "2024-12-07T02:39:43.905Z",
-              "EditorCaption": ""
+              "WhenOpened": "2024-12-07T02:39:43.905Z"
             },
             {
               "$type": "Document",
-              "DocumentIndex": 1,
+              "DocumentIndex": 39,
               "Title": "ReservaController.cs",
               "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement\\SportsRentalManagement\\Controllers\\ReservaController.cs",
               "RelativeDocumentMoniker": "SportsRentalManagement\\Controllers\\ReservaController.cs",
@@ -47,18 +641,6 @@
               "ViewState": "AgIAABoAAAAAAAAAAAAIwMEAAAAAAAAAAAAAAA==",
               "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
               "WhenOpened": "2024-12-07T02:38:29.651Z"
-            },
-            {
-              "$type": "Document",
-              "DocumentIndex": 2,
-              "Title": "Reserva.cs",
-              "DocumentMoniker": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
-              "RelativeDocumentMoniker": "..\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
-              "ToolTip": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
-              "RelativeToolTip": "..\\SportsRentalManagement.Domain\\Models\\Reserva.cs",
-              "ViewState": "AgIAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAAA==",
-              "Icon": "ae27a6b0-e345-4288-96df-5eaf394ee369.000738|",
-              "WhenOpened": "2024-12-07T02:36:11.563Z"
             }
           ]
         }

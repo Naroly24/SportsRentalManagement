@@ -2,7 +2,9 @@ C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsR
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\bin\Debug\net8.0\SportsRentalManagement.Application.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\bin\Debug\net8.0\SportsRentalManagement.Application.pdb
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\bin\Debug\net8.0\SportsRentalManagement.Domain.dll
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\bin\Debug\net8.0\SportsRentalManagement.Infrastructure.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\bin\Debug\net8.0\SportsRentalManagement.Domain.pdb
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\bin\Debug\net8.0\SportsRentalManagement.Infrastructure.pdb
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\obj\Debug\net8.0\SportsRentalManagement.Application.csproj.AssemblyReference.cache
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\obj\Debug\net8.0\SportsRentalManagement.Application.GeneratedMSBuildEditorConfig.editorconfig
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Application\obj\Debug\net8.0\SportsRentalManagement.Application.AssemblyInfoInputs.cache

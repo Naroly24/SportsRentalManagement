@@ -1,6 +1,6 @@
-﻿using System;
-using System.Collections.Generic;
-using SportsRentalManagement.Domain.Interfaces;
+﻿using System.Collections.Generic;
+using System.Threading.Tasks;
+using SportsRentalManagement.Contract.Repositories;
 using SportsRentalManagement.Models;
 
 namespace SportsRentalManagement.Application.Services
@@ -14,38 +14,38 @@ namespace SportsRentalManagement.Application.Services
             _equipoRepository = equipoRepository;
         }
 
-        public IEnumerable<Equipo> ObtenerTodosLosEquipos()
+        public async Task<IEnumerable<Equipo>> GetAllEquiposAsync()
         {
-            return _equipoRepository.ObtenerTodos();
+            return await _equipoRepository.GetAllAsync();
         }
 
-        public Equipo ObtenerEquipoPorId(int id)
+        public async Task<Equipo> GetEquipoByIdAsync(int id)
         {
-            return _equipoRepository.ObtenerPorId(id);
+            return await _equipoRepository.GetByIdAsync(id);
         }
 
-        public void AgregarEquipo(Equipo equipo)
+        public async Task AddEquipoAsync(Equipo equipo)
         {
-            _equipoRepository.Agregar(equipo);
+            await _equipoRepository.AddAsync(equipo);
         }
 
-        public void ActualizarEquipo(Equipo equipo)
+        public async Task UpdateEquipoAsync(Equipo equipo)
         {
-            _equipoRepository.Actualizar(equipo);
+            await _equipoRepository.UpdateAsync(equipo);
         }
 
-        public void EliminarEquipo(int id)
+        public async Task DeleteEquipoAsync(int id)
         {
-            _equipoRepository.Eliminar(id);
+            await _equipoRepository.DeleteAsync(id);
         }
     }
 
     public interface IEquipoService
     {
-        IEnumerable<Equipo> ObtenerTodosLosEquipos();
-        Equipo ObtenerEquipoPorId(int id);
-        void AgregarEquipo(Equipo equipo);
-        void ActualizarEquipo(Equipo equipo);
-        void EliminarEquipo(int id);
+        Task<IEnumerable<Equipo>> GetAllEquiposAsync();
+        Task<Equipo> GetEquipoByIdAsync(int id);
+        Task AddEquipoAsync(Equipo equipo);
+        Task UpdateEquipoAsync(Equipo equipo);
+        Task DeleteEquipoAsync(int id);
     }
 }

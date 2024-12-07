@@ -1,19 +1,20 @@
 ﻿using System;
 using System.Collections.Generic;
-using SportsRentalManagement.Domain.Interfaces;
+using System.Threading.Tasks;
 using SportsRentalManagement.Models;
+using SportsRentalManagement.Contract.Repositories;
 
 namespace SportsRentalManagement.Application.Services
 {
     public interface IFacturacionService
     {
-        IEnumerable<Facturacion> ObtenerTodasLasFacturas();
-        Facturacion ObtenerFacturaPorId(int id);
-        void AgregarFactura(Facturacion factura);
-        void ActualizarFactura(Facturacion factura);
-        void EliminarFactura(int id);
-        IEnumerable<Facturacion> ObtenerFacturasPorEstado(string estadoFactura);
-        IEnumerable<Facturacion> ObtenerFacturasPorRangoFechas(DateTime fechaInicio, DateTime fechaFin);
+        Task<IEnumerable<Facturacion>> ObtenerTodasLasFacturasAsync();
+        Task<Facturacion> ObtenerFacturaPorIdAsync(int id);
+        Task AgregarFacturaAsync(Facturacion factura);
+        Task ActualizarFacturaAsync(Facturacion factura);
+        Task EliminarFacturaAsync(int id);
+        Task<IEnumerable<Facturacion>> ObtenerFacturasPorEstadoAsync(string estadoFactura);
+        Task<IEnumerable<Facturacion>> ObtenerFacturasPorRangoFechasAsync(DateTime fechaInicio, DateTime fechaFin);
     }
 
     public class FacturacionService : IFacturacionService
@@ -25,39 +26,39 @@ namespace SportsRentalManagement.Application.Services
             _facturacionRepository = facturacionRepository;
         }
 
-        public IEnumerable<Facturacion> ObtenerTodasLasFacturas()
+        public async Task<IEnumerable<Facturacion>> ObtenerTodasLasFacturasAsync()
         {
-            return _facturacionRepository.ObtenerTodas();
+            return await _facturacionRepository.GetAllAsync();
         }
 
-        public Facturacion ObtenerFacturaPorId(int id)
+        public async Task<Facturacion> ObtenerFacturaPorIdAsync(int id)
         {
-            return _facturacionRepository.ObtenerPorId(id);
+            return await _facturacionRepository.GetByIdAsync(id);
         }
 
-        public void AgregarFactura(Facturacion factura)
+        public async Task AgregarFacturaAsync(Facturacion factura)
         {
-            _facturacionRepository.Agregar(factura);
+            await _facturacionRepository.AddAsync(factura);
         }
 
-        public void ActualizarFactura(Facturacion factura)
+        public async Task ActualizarFacturaAsync(Facturacion factura)
         {
-            _facturacionRepository.Actualizar(factura);
+            await _facturacionRepository.UpdateAsync(factura);
         }
 
-        public void EliminarFactura(int id)
+        public async Task EliminarFacturaAsync(int id)
         {
-            _facturacionRepository.Eliminar(id);
+            await _facturacionRepository.DeleteAsync(id);
         }
 
-        public IEnumerable<Facturacion> ObtenerFacturasPorEstado(string estadoFactura)
+        public async Task<IEnumerable<Facturacion>> ObtenerFacturasPorEstadoAsync(string estadoFactura)
         {
-            return _facturacionRepository.ObtenerPorEstado(estadoFactura);
+            return await _facturacionRepository.GetByEstadoAsync(estadoFactura);
         }
 
-        public IEnumerable<Facturacion> ObtenerFacturasPorRangoFechas(DateTime fechaInicio, DateTime fechaFin)
+        public async Task<IEnumerable<Facturacion>> ObtenerFacturasPorRangoFechasAsync(DateTime fechaInicio, DateTime fechaFin)
         {
-            return _facturacionRepository.ObtenerPorRangoFechas(fechaInicio, fechaFin);
+            return await _facturacionRepository.GetByRangoFechasAsync(fechaInicio, fechaFin);
         }
     }
 }

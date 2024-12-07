@@ -14,7 +14,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("SportsRentalManagement.Api")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+6606bd2bd65c55dd0d5e53183435219168740f9c")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+f56d697219b3853aa83e6d0961e50fd2a85e2071")]
 [assembly: System.Reflection.AssemblyProductAttribute("SportsRentalManagement.Api")]
 [assembly: System.Reflection.AssemblyTitleAttribute("SportsRentalManagement.Api")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]

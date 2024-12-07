@@ -4,17 +4,15 @@
     "windowsAuthentication": false,
     "anonymousAuthentication": true,
     "iisExpress": {
-      "applicationUrl": "http://localhost:8791",
+      "applicationUrl": "http://localhost:5020",
       "sslPort": 44300
     }
   },
-  {
-    "profiles": {
-      "http": {
-        "applicationUrl": "http://localhost:5020" // Cambia el puerto aquí
-      }
-    }
-  },
+  "profiles": {
+    "http": {
+      "commandName": "Project",
+      "applicationUrl": "http://localhost:5020"
+    },
     "IIS Express": {
       "commandName": "IISExpress",
       "applicationUrl": "http://localhost:5020",

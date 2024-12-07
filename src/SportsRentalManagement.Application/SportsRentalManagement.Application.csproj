@@ -8,11 +8,13 @@
 
   <ItemGroup>
     <PackageReference Include="ClosedXML" Version="0.104.2" />
+    <PackageReference Include="FluentValidation" Version="11.11.0" />
     <PackageReference Include="iTextSharp" Version="5.5.13.4" />
   </ItemGroup>
 
   <ItemGroup>
     <ProjectReference Include="..\SportsRentalManagement.Domain\SportsRentalManagement.Domain.csproj" />
+    <ProjectReference Include="..\SportsRentalManagement.Infrastructure\SportsRentalManagement.Infrastructure.csproj" />
   </ItemGroup>
 
 </Project>

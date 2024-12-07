@@ -123,6 +123,9 @@
             "projectReferences": {
               "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj": {
                 "projectPath": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Domain\\SportsRentalManagement.Domain.csproj"
+              },
+              "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj": {
+                "projectPath": "C:\\Users\\Naroly\\OneDrive\\Documents\\ITLA\\SportsRentalManagement-copia\\src\\SportsRentalManagement.Infrastructure\\SportsRentalManagement.Infrastructure.csproj"
               }
             }
           }
@@ -145,6 +148,10 @@
             "ClosedXML": {
               "target": "Package",
               "version": "[0.104.2, )"
+            },
+            "FluentValidation": {
+              "target": "Package",
+              "version": "[11.11.0, )"
             },
             "iTextSharp": {
               "target": "Package",

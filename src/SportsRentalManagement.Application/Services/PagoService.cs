@@ -1,56 +1,63 @@
 ﻿using System.Collections.Generic;
-using SportsRentalManagement.Domain.Interfaces;
+using System.Threading.Tasks;
+using Microsoft.EntityFrameworkCore;
+using SportsRentalManagement.Contract.Repositories;
 using SportsRentalManagement.Models;
+using SportsRentalManagement.Data; 
 
 namespace SportsRentalManagement.Application.Services
 {
     public interface IPagoService
     {
-        IEnumerable<Pago> ObtenerTodosLosPagos();
-        Pago ObtenerPagoPorId(int id);
-        IEnumerable<Pago> ObtenerPagosPorReservaId(int reservaId);
-        void AgregarPago(Pago pago);
-        void ActualizarPago(Pago pago);
-        void EliminarPago(int id);
+        Task<IEnumerable<Pago>> ObtenerTodosLosPagosAsync();
+        Task<Pago> ObtenerPagoPorIdAsync(int id);
+        Task<IEnumerable<Pago>> ObtenerPagosPorReservaIdAsync(int reservaId);
+        Task AgregarPagoAsync(Pago pago);
+        Task ActualizarPagoAsync(Pago pago);
+        Task EliminarPagoAsync(int id);
     }
 
     public class PagoService : IPagoService
     {
         private readonly IPagoRepository _pagoRepository;
+        private readonly AppDBContext _context;
 
-        public PagoService(IPagoRepository pagoRepository)
+        public PagoService(IPagoRepository pagoRepository, AppDBContext context)
         {
             _pagoRepository = pagoRepository;
+            _context = context;
         }
 
-        public IEnumerable<Pago> ObtenerTodosLosPagos()
+        public async Task<IEnumerable<Pago>> ObtenerTodosLosPagosAsync()
         {
-            return _pagoRepository.ObtenerTodos();
+            return await _pagoRepository.GetAllAsync();
         }
 
-        public Pago ObtenerPagoPorId(int id)
+        public async Task<Pago> ObtenerPagoPorIdAsync(int id)
         {
-            return _pagoRepository.ObtenerPorId(id);
+            return await _pagoRepository.GetByIdAsync(id);
         }
 
-        public IEnumerable<Pago> ObtenerPagosPorReservaId(int reservaId)
+        public async Task<IEnumerable<Pago>> ObtenerPagosPorReservaIdAsync(int reservaId)
         {
-            return _pagoRepository.ObtenerPorReservaId(reservaId);
+            return await _context.Pagos
+                .Where(p => p.ReservaId == reservaId)
+                .ToListAsync();
         }
 
-        public void AgregarPago(Pago pago)
+        public async Task AgregarPagoAsync(Pago pago)
         {
-            _pagoRepository.Agregar(pago);
+            await _pagoRepository.AddAsync(pago);
         }
 
-        public void ActualizarPago(Pago pago)
+        public async Task ActualizarPagoAsync(Pago pago)
         {
-            _pagoRepository.Actualizar(pago);
+            await _pagoRepository.UpdateAsync(pago);
         }
 
-        public void EliminarPago(int id)
+        public async Task EliminarPagoAsync(int id)
         {
-            _pagoRepository.Eliminar(id);
+            await _pagoRepository.DeleteAsync(id);
         }
     }
 }

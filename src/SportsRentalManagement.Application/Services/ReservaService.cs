@@ -1,68 +1,72 @@
 ﻿using System.Collections.Generic;
-using SportsRentalManagement.Domain.Interfaces;
+using System.Threading.Tasks;
+using SportsRentalManagement.Contract.Repositories;
 using SportsRentalManagement.Models;
+using SportsRentalManagement.Data;
 
 namespace SportsRentalManagement.Application.Services
 {
     public interface IReservaService
     {
-        IEnumerable<Reserva> ObtenerTodasLasReservas();
-        Reserva ObtenerReservaPorId(int id);
-        void AgregarReserva(Reserva reserva);
-        void ActualizarReserva(Reserva reserva);
-        void EliminarReserva(int id);
-        IEnumerable<Reserva> ObtenerReservasPorUsuarioId(int usuarioId);
-        IEnumerable<Reserva> ObtenerReservasPorEquipoId(int equipoId);
-        IEnumerable<Reserva> ObtenerReservasActivas();
+        Task<IEnumerable<Reserva>> ObtenerTodasLasReservasAsync();
+        Task<Reserva> ObtenerReservaPorIdAsync(int id);
+        Task AgregarReservaAsync(Reserva reserva);
+        Task ActualizarReservaAsync(Reserva reserva);
+        Task EliminarReservaAsync(int id);
+        Task<IEnumerable<Reserva>> ObtenerReservasPorUsuarioIdAsync(int usuarioId);
+        Task<IEnumerable<Reserva>> ObtenerReservasPorEquipoIdAsync(int equipoId);
+        Task<IEnumerable<Reserva>> ObtenerReservasActivasAsync();
     }
 
     public class ReservaService : IReservaService
     {
         private readonly IReservaRepository _reservaRepository;
+        private readonly AppDBContext _context;
 
-        public ReservaService(IReservaRepository reservaRepository)
+        public ReservaService(IReservaRepository reservaRepository, AppDBContext context)
         {
             _reservaRepository = reservaRepository;
+            _context = context;
         }
 
-        public IEnumerable<Reserva> ObtenerTodasLasReservas()
+        public async Task<IEnumerable<Reserva>> ObtenerTodasLasReservasAsync()
         {
-            return _reservaRepository.ObtenerTodas();
+            return await _reservaRepository.GetAllAsync();
         }
 
-        public Reserva ObtenerReservaPorId(int id)
+        public async Task<Reserva> ObtenerReservaPorIdAsync(int id)
         {
-            return _reservaRepository.ObtenerPorId(id);
+            return await _reservaRepository.GetByIdAsync(id);
         }
 
-        public void AgregarReserva(Reserva reserva)
+        public async Task AgregarReservaAsync(Reserva reserva)
         {
-            _reservaRepository.Agregar(reserva);
+            await _reservaRepository.AddAsync(reserva);
         }
 
-        public void ActualizarReserva(Reserva reserva)
+        public async Task ActualizarReservaAsync(Reserva reserva)
         {
-            _reservaRepository.Actualizar(reserva);
+            await _reservaRepository.UpdateAsync(reserva);
         }
 
-        public void EliminarReserva(int id)
+        public async Task EliminarReservaAsync(int id)
         {
-            _reservaRepository.Eliminar(id);
+            await _reservaRepository.DeleteAsync(id);
         }
 
-        public IEnumerable<Reserva> ObtenerReservasPorUsuarioId(int usuarioId)
+        public async Task<IEnumerable<Reserva>> ObtenerReservasPorUsuarioIdAsync(int usuarioId)
         {
-            return _reservaRepository.ObtenerPorUsuarioId(usuarioId);
+            return await _reservaRepository.GetByUserIdAsync(usuarioId);
         }
 
-        public IEnumerable<Reserva> ObtenerReservasPorEquipoId(int equipoId)
+        public async Task<IEnumerable<Reserva>> ObtenerReservasPorEquipoIdAsync(int equipoId)
         {
-            return _reservaRepository.ObtenerPorEquipoId(equipoId);
+            return await _reservaRepository.GetByEquipmentIdAsync(equipoId);
         }
 
-        public IEnumerable<Reserva> ObtenerReservasActivas()
+        public async Task<IEnumerable<Reserva>> ObtenerReservasActivasAsync()
         {
-            return _reservaRepository.ObtenerReservasActivas();
+            return await _reservaRepository.GetActiveReservasAsync();
         }
     }
 }

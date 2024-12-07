@@ -16,6 +16,7 @@ C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsR
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\EPPlus.Interfaces.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\EPPlus.System.Drawing.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\ExcelNumberFormat.dll
+C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\FluentValidation.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\itextsharp.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\Microsoft.Bcl.AsyncInterfaces.dll
 C:\Users\Naroly\OneDrive\Documents\ITLA\SportsRentalManagement-copia\src\SportsRentalManagement.Api\bin\Debug\net8.0\Microsoft.Data.SqlClient.dll
