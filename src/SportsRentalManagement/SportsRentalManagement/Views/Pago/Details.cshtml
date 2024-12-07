@@ -1,57 +1,72 @@
-﻿<!-- Views/Pago/Details.cshtml -->
-@model SportsRentalManagement.Models.Pago
+﻿@model SportsRentalManagement.Models.Pago
 
-@{
-    ViewData["Title"] = "Detalles del Pago";
-}
+<div class="content-wrapper">
+    <div class="container-fluid">
+        <div class="row">
+            <div class="col-md-10 offset-md-1">
+                <div class="card shadow-lg">
+                    <div class="card-header bg-primary text-white d-flex align-items-center">
+                        <i class="bi bi-receipt fs-4 me-3"></i>
+                        <h2 class="h3 mb-0">Detalles del Pago</h2>
+                    </div>
+                    <div class="card-body">
+                        <h5 class="card-title">Información del Pago</h5>
+                        <dl class="row">
+                            <dt class="col-sm-4">ID del Pago</dt>
+                            <dd class="col-sm-8">@Model.Id</dd>
 
-<h1>Detalles del Pago</h1>
+                            <dt class="col-sm-4">Monto</dt>
+                            <dd class="col-sm-8">@Model.Monto.ToString("C")</dd>
 
-<div class="card">
-    <div class="card-body">
-        <h5 class="card-title">Información del Pago</h5>
-        <dl class="row">
-            <dt class="col-sm-3">ID del Pago</dt>
-            <dd class="col-sm-9">@Model.Id</dd>
+                            <dt class="col-sm-4">Fecha de Pago</dt>
+                            <dd class="col-sm-8">@Model.FechaPago.ToString("dd/MM/yyyy HH:mm")</dd>
 
-            <dt class="col-sm-3">Monto</dt>
-            <dd class="col-sm-9">@Model.Monto.ToString("C")</dd>
+                            <dt class="col-sm-4">Método de Pago</dt>
+                            <dd class="col-sm-8">@Model.MetodoPago</dd>
 
-            <dt class="col-sm-3">Fecha de Pago</dt>
-            <dd class="col-sm-9">@Model.FechaPago.ToString("dd/MM/yyyy HH:mm")</dd>
+                            <dt class="col-sm-4">Estado del Pago</dt>
+                            <dd class="col-sm-8">
+                                <span class="badge @(Model.EstadoPago ? "bg-success" : "bg-warning")">
+                                    @(Model.EstadoPago ? "Completado" : "Pendiente")
+                                </span>
+                            </dd>
+                        </dl>
 
-            <dt class="col-sm-3">Método de Pago</dt>
-            <dd class="col-sm-9">@Model.MetodoPago</dd>
+                        <h5 class="card-title mt-4">Información de la Reserva</h5>
+                        <dl class="row">
+                            <dt class="col-sm-4">ID de Reserva</dt>
+                            <dd class="col-sm-8">@Model.ReservaId</dd>
 
-            <dt class="col-sm-3">Estado del Pago</dt>
-            <dd class="col-sm-9">
-                <span class="badge @(Model.EstadoPago ? "bg-success" : "bg-warning")">
-                    @(Model.EstadoPago ? "Completado" : "Pendiente")
-                </span>
-            </dd>
-        </dl>
+                            <dt class="col-sm-4">Usuario</dt>
+                            <dd class="col-sm-8">@Model.Reserva.Usuario.Nombre</dd>
 
-        <h5 class="card-title mt-4">Información de la Reserva</h5>
-        <dl class="row">
-            <dt class="col-sm-3">ID de Reserva</dt>
-            <dd class="col-sm-9">@Model.ReservaId</dd>
+                            <dt class="col-sm-4">Equipo</dt>
+                            <dd class="col-sm-8">@Model.Reserva.Equipo.Nombre</dd>
 
-            <dt class="col-sm-3">Usuario</dt>
-            <dd class="col-sm-9">@Model.Reserva.Usuario.Nombre</dd>
+                            <dt class="col-sm-4">Fecha Inicio</dt>
+                            <dd class="col-sm-8">@Model.Reserva.FechaInicio.ToString("dd/MM/yyyy")</dd>
 
-            <dt class="col-sm-3">Equipo</dt>
-            <dd class="col-sm-9">@Model.Reserva.Equipo.Nombre</dd>
-
-            <dt class="col-sm-3">Fecha Inicio</dt>
-            <dd class="col-sm-9">@Model.Reserva.FechaInicio.ToString("dd/MM/yyyy")</dd>
-
-            <dt class="col-sm-3">Fecha Fin</dt>
-            <dd class="col-sm-9">@Model.Reserva.FechaFin.ToString("dd/MM/yyyy")</dd>
-        </dl>
+                            <dt class="col-sm-4">Fecha Fin</dt>
+                            <dd class="col-sm-8">@Model.Reserva.FechaFin.ToString("dd/MM/yyyy")</dd>
+                        </dl>
+                    </div>
+                </div>
+          
+                    <a asp-action="Index" class="btn btn-secondary">
+                        <i class="bi bi-arrow-left me-2"></i>Volver a la Lista
+                    </a>
+                </div>
+            </div>
+        </div>
     </div>
 </div>
 
-<div class="mt-3">
-    <a asp-action="Edit" asp-route-id="@Model.Id" class="btn btn-warning">Editar</a>
-    <a asp-action="Index" class="btn btn-secondary">Volver a la Lista</a>
-</div>
+<style>
+    .content-wrapper {
+        background-color: #f4f6f9;
+        padding: 20px;
+    }
+    .card {
+        border-radius: 10px;
+    }
+</style>

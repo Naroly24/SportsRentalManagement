@@ -2,11 +2,12 @@
 using Microsoft.EntityFrameworkCore;
 using SportsRentalManagement.Models;
 using SportsRentalManagement.Data;
-using Microsoft.AspNetCore.Mvc.Rendering;
 
-namespace SportsRentalManagement.Controllers
+namespace SportsRentalManagement.Api.Controllers
 {
-    public class ReservaController : Controller
+    [ApiController]
+    [Route("api/[controller]")] // Ruta base: api/reserva
+    public class ReservaController : ControllerBase
     {
         private readonly AppDBContext _context;
 
@@ -15,191 +16,108 @@ namespace SportsRentalManagement.Controllers
             _context = context;
         }
 
-        // GET: Reserva
-        public async Task<IActionResult> Index()
+        // GET: api/reserva
+        [HttpGet]
+        public async Task<IActionResult> GetReservas()
         {
             var reservas = await _context.Reservas
                 .Include(r => r.Usuario)
                 .Include(r => r.Equipo)
-                .ToListAsync(); // Obtener las reservas con usuarios y equipos asociados
-            return View(reservas);
+                .ToListAsync();
+            return Ok(reservas);
         }
 
-        // GET: Reserva/Details/5
-        public async Task<IActionResult> Details(int id)
+        // GET: api/reserva/5
+        [HttpGet("{id}")]
+        public async Task<IActionResult> GetReserva(int id)
         {
             var reserva = await _context.Reservas
                 .Include(r => r.Usuario)
                 .Include(r => r.Equipo)
-                .FirstOrDefaultAsync(r => r.Id == id); // Obtener la reserva por ID
+                .FirstOrDefaultAsync(r => r.Id == id);
 
             if (reserva == null)
             {
-                return View("Error");
+                return NotFound(new { Message = "Reserva no encontrada" });
             }
 
-            return View(reserva);
+            return Ok(reserva);
         }
 
-        // GET: Reserva/Create
-        public IActionResult Create()
-        {
-            // Asumiendo que tienes acceso a las tablas de usuarios y equipos en el contexto
-            ViewBag.Usuarios = new SelectList(_context.Usuarios, "Id", "Nombre"); // Ajusta según la estructura de tu modelo Usuario
-            ViewBag.Equipos = new SelectList(_context.Equipos, "Id", "Nombre");   // Ajusta según la estructura de tu modelo Equipo
-            return View();
-        }
-
-        // POST: Reserva/Create
+        // POST: api/reserva
         [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Create(Reserva reserva)
+        public async Task<IActionResult> CreateReserva([FromBody] Reserva reserva)
         {
-            if (ModelState.IsValid)
+            if (reserva.FechaInicio >= reserva.FechaFin)
             {
-                // Validar que la fecha de inicio sea menor que la fecha de fin
-                if (reserva.FechaInicio >= reserva.FechaFin)
-                {
-                    ModelState.AddModelError("", "La fecha de inicio debe ser menor que la fecha de fin.");
-                    ViewBag.Usuarios = new SelectList(_context.Usuarios, "Id", "Nombre", reserva.UsuarioId);
-                    ViewBag.Equipos = new SelectList(_context.Equipos, "Id", "Nombre", reserva.EquipoId);
-                    return View(reserva);
-                }
-
-                // Calcular el total de la reserva (esto se puede ajustar dependiendo de la lógica de negocio)
-                var equipo = await _context.Equipos.FindAsync(reserva.EquipoId);
-                if (equipo != null)
-                {
-                    // Calcular el total de la reserva basado en los días de la reserva
-                    var diasReserva = (reserva.FechaFin - reserva.FechaInicio).Days;
-                    if (diasReserva > 0) // Asegurarse de que la duración es positiva
-                    {
-                        reserva.TotalReserva = equipo.PrecioPorDia * diasReserva; // Ajusta el cálculo según la propiedad PrecioPorDia del equipo
-                    }
-                    else
-                    {
-                        ModelState.AddModelError("", "La duración de la reserva debe ser mayor a cero días.");
-                        ViewBag.Usuarios = new SelectList(_context.Usuarios, "Id", "Nombre", reserva.UsuarioId);
-                        ViewBag.Equipos = new SelectList(_context.Equipos, "Id", "Nombre", reserva.EquipoId);
-                        return View(reserva);
-                    }
-                }
-
-                // Guardar la reserva en la base de datos
-                _context.Add(reserva);
-                await _context.SaveChangesAsync();
-
-                // Redirigir a la vista Index para mostrar todas las reservas
-                return RedirectToAction(nameof(Index));
+                return BadRequest(new { Message = "La fecha de inicio debe ser menor que la fecha de fin." });
             }
 
-            // Si el modelo no es válido, recargar la vista con los datos actuales
-            ViewBag.Usuarios = new SelectList(_context.Usuarios, "Id", "Nombre", reserva.UsuarioId);
-            ViewBag.Equipos = new SelectList(_context.Equipos, "Id", "Nombre", reserva.EquipoId);
-            return View(reserva);
+            var equipo = await _context.Equipos.FindAsync(reserva.EquipoId);
+            if (equipo == null)
+            {
+                return BadRequest(new { Message = "Equipo no encontrado." });
+            }
+
+            var diasReserva = (reserva.FechaFin - reserva.FechaInicio).Days;
+            reserva.TotalReserva = equipo.PrecioPorDia * diasReserva;
+
+            _context.Reservas.Add(reserva);
+            await _context.SaveChangesAsync();
+
+            return CreatedAtAction(nameof(GetReserva), new { id = reserva.Id }, reserva);
         }
 
-
-        // GET: Reserva/Edit/5
-        public async Task<IActionResult> Edit(int? id)
-        {
-            if (id == null)
-            {
-                return NotFound();
-            }
-
-            var reserva = await _context.Reservas.FindAsync(id); // Asegúrate de que 'Reservas' sea el DbSet correcto.
-            if (reserva == null)
-            {
-                return NotFound();
-            }
-
-            return View(reserva); // Pasar el objeto 'reserva' a la vista.
-        }
-
-
-        // POST: Reserva/Edit/5
-        [HttpPost]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> Edit(int id, Reserva reserva)
+        // PUT: api/reserva/5
+        [HttpPut("{id}")]
+        public async Task<IActionResult> UpdateReserva(int id, [FromBody] Reserva reserva)
         {
             if (id != reserva.Id)
             {
-                return NotFound();
+                return BadRequest(new { Message = "ID no coincide con el de la reserva." });
             }
 
-            if (ModelState.IsValid)
+            var equipo = await _context.Equipos.FindAsync(reserva.EquipoId);
+            if (equipo == null)
             {
-                try
-                {
-                    // Calcular el TotalReserva basándose en la duración
-                    var equipo = await _context.Equipos.FindAsync(reserva.EquipoId);
-                    if (equipo != null)
-                    {
-                        // Calcular la duración de la reserva en días
-                        var duration = (reserva.FechaFin - reserva.FechaInicio).Days;
-                        // Asignar el TotalReserva (puedes ajustar la fórmula según tu lógica)
-                        reserva.TotalReserva = equipo.PrecioPorDia * duration;
-                    }
-
-                    // Actualizar la reserva en la base de datos
-                    _context.Update(reserva);
-                    await _context.SaveChangesAsync();
-                    return RedirectToAction(nameof(Index));
-                }
-                catch (DbUpdateConcurrencyException)
-                {
-                    if (!ReservaExists(reserva.Id))
-                    {
-                        return NotFound();
-                    }
-                    throw;
-                }
+                return BadRequest(new { Message = "Equipo no encontrado." });
             }
 
-            // En caso de error, inicializar los ViewBag de nuevo
-            ViewBag.Usuarios = new SelectList(await _context.Usuarios.ToListAsync(), "Id", "Nombre", reserva.UsuarioId);
-            ViewBag.Equipos = new SelectList(await _context.Equipos.ToListAsync(), "Id", "Nombre", reserva.EquipoId);
+            reserva.TotalReserva = (reserva.FechaFin - reserva.FechaInicio).Days * equipo.PrecioPorDia;
 
-            return View(reserva);
-        }
+            _context.Entry(reserva).State = EntityState.Modified;
 
-
-
-        // GET: Reserva/Delete/5
-        public async Task<IActionResult> Delete(int id)
-        {
-            var reserva = await _context.Reservas
-                .Include(r => r.Usuario)
-                .Include(r => r.Equipo)
-                .FirstOrDefaultAsync(r => r.Id == id); // Obtener la reserva por ID
-
-            if (reserva == null)
+            try
             {
-                return View("Error");
-            }
-
-            return View(reserva);
-        }
-
-        // POST: Reserva/Delete/5
-        [HttpPost]
-        [ActionName("Delete")]
-        [ValidateAntiForgeryToken]
-        public async Task<IActionResult> DeleteConfirmed(int id)
-        {
-            var reserva = await _context.Reservas.FindAsync(id);
-            if (reserva != null) // Verifica que la reserva no sea nula
-            {
-                _context.Reservas.Remove(reserva);
                 await _context.SaveChangesAsync();
             }
-            return RedirectToAction(nameof(Index));
+            catch (DbUpdateConcurrencyException)
+            {
+                if (!_context.Reservas.Any(e => e.Id == id))
+                {
+                    return NotFound(new { Message = "Reserva no encontrada." });
+                }
+
+                throw;
+            }
+
+            return NoContent();
         }
 
-        private bool ReservaExists(int id)
+        // DELETE: api/reserva/5
+        [HttpDelete("{id}")]
+        public async Task<IActionResult> DeleteReserva(int id)
         {
-            return _context.Reservas.Any(e => e.Id == id);
+            var reserva = await _context.Reservas.FindAsync(id);
+            if (reserva == null)
+            {
+                return NotFound(new { Message = "Reserva no encontrada." });
+            }
+
+            _context.Reservas.Remove(reserva);
+            await _context.SaveChangesAsync();
+
+            return NoContent();
         }
     }
 }

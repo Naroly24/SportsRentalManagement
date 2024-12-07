@@ -8,17 +8,17 @@
       "sslPort": 44300
     }
   },
-  "profiles": {
-    "http": {
-      "commandName": "Project",
-      "applicationUrl": "http://localhost:5012",
-      "sslPort": 5001
-    },
+  {
+    "profiles": {
+      "http": {
+        "applicationUrl": "http://localhost:5020" // Cambia el puerto aquí
+      }
+    }
+  },
     "IIS Express": {
       "commandName": "IISExpress",
-      "applicationUrl": "http://localhost:5012",
+      "applicationUrl": "http://localhost:5020",
       "sslPort": 44300
     }
   }
 }
-
